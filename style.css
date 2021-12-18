@@ -1,0 +1,407 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&family=Noto+Serif+KR:wght@400;700&display=swap');
+
+body{
+    margin: 0px;
+    background-color: black;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-family: 'Noto Serif KR', serif;
+    font-weight: 400, 700;
+    font-size: 1rem;
+    color: white;
+}
+
+.row{
+    width: 1080px;
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+}
+
+
+
+#menuBar{
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.title{
+    font-family: 'Noto Serif KR', serif;
+    font-weight: 700;
+    padding-top: 30px;
+}
+
+.menu{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 700;
+    padding-top: 50px;
+}
+
+a{
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover{
+    color: red;
+    text-decoration: none;
+}
+
+ul li{
+    display: inline-block;
+    padding-left: 100px;
+}
+
+
+#main_s{
+    display: none;
+}
+
+.mainText_1{
+    font-family: 'Noto Serif KR', serif;
+    font-weight: 400;
+    font-size: 0.8rem;
+    line-height: 2rem;
+    padding-top: 60px;
+    padding-bottom: 100px;
+}
+
+.mainText_2{
+    font-family: 'Noto Serif KR', serif;
+    font-weight: 400;
+    font-size: 0.8rem;
+    line-height: 2rem;
+    padding-bottom: 100px;
+}
+
+.mainText_3{
+    font-family: 'Noto Serif KR', serif;
+    font-weight: 400;
+    font-size: 0.8rem;
+    line-height: 2rem;
+}
+
+.subText{
+    font-family: 'Noto Sans KR', Sans-serif;
+    font-weight: 400;
+    font-size: 0.8rem;
+    line-height: 2rem;
+    padding-bottom: 80px;
+    color: gray;
+}
+
+
+
+.lastLine{
+    border-width: 1px;
+    border-color: white;
+    border-style: solid;
+    width: 100%;
+}
+
+.lastText{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 700;
+    font-size: 0.8rem;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+
+
+.previewBox{
+    background-image: url(img/3_1.png);
+    font-family: 'Noto Serif KR', sans-serif;
+    background-repeat : no-repeat;
+    margin-top: 30px;
+}
+
+.previewText_1{
+    font-family: 'Noto Serif KR', sans-serif;
+    font-weight: 400;
+    font-size: 0.8rem;
+    line-height: 3rem;
+    padding-top: 135px;
+}
+
+.previewText_2{
+    font-family: 'Noto Serif KR', sans-serif;
+    font-weight: 400;
+    font-size: 0.8rem;
+    line-height: 3rem;
+    padding-top: 100px;
+}
+
+.btn_1{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 700;
+    font-size: 0.8rem;
+    color: white;
+    width: 250px;
+    height: 60px;
+    background-color: black;
+    margin-top: 50px;
+    margin-bottom: 300px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: white;
+}
+
+.btn_1:hover{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 700;
+    font-size: 0.8rem;
+    color: white;
+    width: 250px;
+    height: 60px;
+    background-color: red;
+    margin-top: 50px;
+    margin-bottom: 300px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: red;
+}
+
+
+
+#margin{
+    height: 130px;
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 768px)
+{
+    .row{
+        width: 668px;
+    }
+
+    img {
+        max-width: 100%;
+    }
+
+    .title{
+        padding-top: 15px;
+    }
+
+    .menu{
+        padding-top: 35px;
+    }
+
+    ul li{
+        display: inline-block;
+        padding-left: 67px;
+    }
+
+    a:hover{
+        color: white;
+    }
+
+
+
+    .mainText_1{
+        font-size: 0.9rem;
+        line-height: 2.2rem;
+        width: 610px;
+        margin: auto;
+    }
+    
+    .mainText_2{
+        font-size: 0.9rem;
+        line-height: 2.2rem;
+        width: 610px;
+        margin: auto;
+    }
+    
+    .mainText_3{
+        font-size: 0.9rem;
+        line-height: 2.2rem;
+        width: 630px;
+        margin: auto;
+    }
+    
+    .subText{
+        font-size: 0.9rem;
+    }
+
+
+
+    .previewBox{
+        background-image: url(img/3_1_m.png);
+        margin-top: 0px;
+    }
+    
+    .previewText_1{
+        font-size: 0.9rem;
+        line-height: 3.1rem;
+        padding-top: 90px;
+    }
+    
+    .previewText_2{
+        font-family: 'Noto Serif KR', sans-serif;
+        font-weight: 400;
+        font-size: 0.9rem;
+        line-height: 3.1rem;
+    }
+    
+    .btn_1{
+        font-size: 0.9rem;
+    }
+    
+    .btn_1:hover{
+        background-color: black;
+        font-size: 0.9rem;
+        border-color: white;
+    }
+
+
+
+    #margin{
+        height: 270px;
+    }
+
+    video {
+        max-width: 100%;
+    }
+}
+
+
+
+@media screen and (max-width: 640px)
+{
+    .row{
+        width: 100vw;
+    }
+
+    img {
+        max-width: 88vw;
+    }
+
+    #menuBar{
+        height: 15vw;
+    }
+
+    .title{
+        padding-top: 0vw;
+        font-size: 3vw;
+        padding-left: 6vw;
+        white-space: nowrap;
+    }
+
+    .menu{
+        padding-top: 3vw;
+        font-size: 3.3vw;
+        padding-right: 6vw;
+        white-space: nowrap;
+        width: 100vw;
+    }
+
+    ul li{
+        padding-left: 5vw;
+    }    
+
+
+
+    #main{
+        display: none;
+    }
+
+    #main_s{
+        display: inline;
+        max-width: 100vw;
+    }
+
+    .mainText_1{
+        font-size: 3.3vw;
+        line-height: 7.3vw;
+        width: 70vw;
+        margin: auto;
+        padding-top: 12vw;
+        padding-bottom: 15vw;
+    }
+    
+    .mainText_2{
+        font-size: 3.3vw;
+        line-height: 7.3vw;
+        width: 70vw;
+        margin: auto;
+    }
+    
+    .mainText_3{
+        font-size: 3.3vw;
+        line-height: 7.3vw;
+        width: 75vw;
+        margin: auto;
+    }
+    
+    .subText{
+        font-size: 3.3vw;
+        padding-bottom: 10vw;
+    }
+
+    #mainLast{
+        max-width: 100vw;
+    }
+
+
+
+    .lastText{
+        font-size: 2.5vw;
+        padding-top: 10vw;
+        padding-bottom: 11vw;
+    }
+
+
+
+    .previewBox{
+        background-image: url(img/3_1_s.png);
+        margin-top: 12vw;
+        background-size: cover;
+        background-position: center;
+    }
+    
+    .previewText_1{
+        font-size: 3.3vw;
+        line-height: 12vw;
+        padding-top: 5vw;
+        width: 75vw;
+        margin: auto;
+    }
+    
+    .previewText_2{
+        font-family: 'Noto Serif KR', sans-serif;
+        font-weight: 400;
+        font-size: 3.3vw;
+        line-height: 12vw;
+        padding-top: 5vw;
+        width: 83%;
+        margin: auto;
+    }
+    
+    .btn_1{
+        font-size: 3.3vw;
+        width: 55vw;
+        height: 15vw;
+        margin-bottom: 40vw;
+    }
+    
+    .btn_1:hover{
+        background-color: black;
+        font-size: 3.3vw;
+        width: 60vw;
+        height: 90px;
+        border-color: white;
+    }
+
+
+
+    #margin{
+        height: 25vh;
+    }
+}
